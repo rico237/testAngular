@@ -1,0 +1,6 @@
+<h2>Liste des utilisateurs</h2>
+<ul class="users list-group">
+  <li *ngFor="let user of users" class="list-group-item">
+    Id : {{user.id}} Date de naissance : {{user.dateofbirth}} Sexe : {{user.gender}}
+  </li>
+</ul>
