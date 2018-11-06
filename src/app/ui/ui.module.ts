@@ -9,7 +9,12 @@ import { ChartComponent } from '../chart/chart.component';
   imports: [
     CommonModule
   ],
-  declarations: [HeaderComponent, LayoutComponent, InfodisplayComponent, ChartComponent],
+  declarations: [
+  	HeaderComponent, 
+  	LayoutComponent, 
+  	InfodisplayComponent, 
+  	ChartComponent
+  ],
   exports: [LayoutComponent]
 })
 export class UiModule { }

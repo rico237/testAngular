@@ -12,13 +12,3 @@ export const USERS: User[] = [
   { id: 19, dateofbirth: 19911101, gender: 1 },
   { id: 20, dateofbirth: 19930105, gender: 0 }
 ];
-
-
-
-
-
-
-
-
-
-
